@@ -1,0 +1,1 @@
+This folder contains the debug Solugen EXE. It is named Sgen.exe.
