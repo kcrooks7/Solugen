@@ -1,0 +1,17 @@
+//Naming Convention: Capital Letters, Underscore then common letters for attributes and variables.
+//Common letters for method with underscore followed by capitalized words. Main concern first followed by
+//secondary concern. Input variables are open.
+
+//To-Do...Dev Notes:
+//GUI...wxWidgets
+//OOP Patterns...We use the Factory Pattern here, Use Virtual Inheritance to avoid Diamond conflict.
+//Optimization...Threads, Algorithm & Data Structure Refactoring...
+//Exception & Error handling...Use Virtual Inheritance to avoid Diamond conflict.Code perfect and avoid try_catch as best as possible.
+//Garbage collection...Destructors must be added for each class.
+//Refactor
+
+--Solugen Project Tasks--
+
+--Frontend Generation tasks
+
+
