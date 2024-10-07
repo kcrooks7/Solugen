@@ -6,7 +6,7 @@
 #include <fstream>
 #include <istream>
 #include <string>
-#include "Helpers.h"
+
 using namespace std;
 
 class Generator_Factory{
@@ -26,21 +26,21 @@ public:
         switch(XMLFile_flag){
         case HFI:
             {
-            cout<<"HTML_Generator";
+            cout<<"HTML File Generated";
             HTML_Generator* myGen = new HTML_Generator(xmlfile);
             output = myGen;
             break;
             }
         case CBF:
             {
-            cout<<"CSS_Generator";
+            cout<<"CSS File Generated";
             CSS_Generator* CSSGen = new CSS_Generator(xmlfile);
             output = CSSGen;
             break;
             }
         case JMF:
             {
-            cout<<"JavaScript_Generator";
+            cout<<"JavaScript File Generated";
             JS_Generator* JSGen = new JS_Generator(xmlfile);
             output = JSGen;
             break;

@@ -6,7 +6,6 @@
 #include <string>
 #include <stack>
 #include <cctype>
-#include "Helpers.h"
 
 using namespace std;
 
@@ -66,7 +65,6 @@ void HTML_Generator::genFile(string fileName){
                 }else if(TAG_name=="Element"){
 
                     HTMLTag = ""+getTagContent(OUTPUT_text);
-                    cout<<getTagContent(OUTPUT_text);
                     //Remove white space.
                     HTMLTag.erase(std::remove_if(HTMLTag.begin(),HTMLTag.end(),::isspace),HTMLTag.end());
 
@@ -74,18 +72,15 @@ void HTML_Generator::genFile(string fileName){
 
                     //Handle large contents in tag.
                     HTMLContents = ""+getTagContent(OUTPUT_text);
-                    cout<<getTagContent(OUTPUT_text);
 
                 }else if(TAG_name=="AttribVal"){
 
                     //Handle large attribute list.
                     HTMLAttribVal = ""+getTagContent(OUTPUT_text);
-                    cout<<getTagContent(OUTPUT_text);
 
                 }else if(TAG_name=="REGEX"){
 
                     HTMLRegex = ""+getTagContent(OUTPUT_text);
-                    cout<<getTagContent(OUTPUT_text);
 
                 }else if(TAG_name== "/record"){
 

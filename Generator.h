@@ -79,21 +79,21 @@ public:
         //Dev must use the proper HTML code for angle brackets etc, --&lt;&gt;&amp;--.
         string TAG_content;
         int LINE_length = xLine.length();
-        cout<<LINE_length;
+
 
         int i = 0;
         char  CUR_char = xLine[i];
         LINE_length-=1;
-        cout<<CUR_char;cout<<"\n";
+
         while (i < LINE_length){
 
             if (CUR_char == '>'){
-                cout<<"_IN_\n";
+
                 i+=1;
                 CUR_char = xLine[i];
 
                 while(CUR_char != '<'){
-                    cout<<CUR_char;cout<<"\n";
+
                     TAG_content = TAG_content + CUR_char;
                     i+=1;
                     CUR_char = xLine[i];
