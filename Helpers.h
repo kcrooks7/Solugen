@@ -1,4 +1,6 @@
 #pragma once
+#ifndef HELPERS_H
+#define HELPERS_H
 #include <string>
 #include <algorithm>
 #include <array>
@@ -122,10 +124,6 @@ inline FILE_flag getXMLFileFlag(string filename){
 
     FILE_sent.close();
 
-    cout<<"\n";
-    cout<<TAKE_3;
-    cout<<"\n";
-
     if (TAKE_3 == "HFI"){
             return HFI;
         }else if(TAKE_3 == "CBF"){
@@ -156,7 +154,7 @@ inline FILE_flag getFileFlag(ifstream openfile){
 
     return FILEflag;
 }
-
+#endif // HELPERS_H
 
 
 

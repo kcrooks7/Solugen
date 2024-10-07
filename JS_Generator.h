@@ -38,4 +38,4 @@ public:
 
 };
 
-#endif // JS_GENERATOR_H_INCLUDED
+#endif // JS_GENERATOR_H
