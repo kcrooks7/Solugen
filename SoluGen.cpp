@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -18,14 +19,8 @@ using namespace std;
 
 //OOP Patterns...We use the Factory Pattern here, Use Virtual Inheritance to avoid Diamond conflict.
 
-//static Generator_Factory MyFactory();
 
 int main(){
-
-
-
-
-    //try{
 
 
 
@@ -50,7 +45,7 @@ int main(){
 
     //Get flag from XML here.
     XMLFile_flag = getXMLFileFlag(XML_file);
-    cout<<XMLFile_flag;
+
     cout<< "Name your output file without extension:";
     cin >>OUTPUT_file;
     string fileName = "";
@@ -65,7 +60,7 @@ int main(){
 
 
 	//Print message and end program.
-	cout << "File "+ OUTPUT_file+"."+getFTString(XMLFile_flag) + " Done Processing.";
+	cout << "\nFile "+ OUTPUT_file+"."+getFTString(XMLFile_flag) + " Done Processing.";
 
     return 0;
 
