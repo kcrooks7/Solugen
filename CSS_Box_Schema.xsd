@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CBF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<record>
+	  <Element></Element>
+	  <Width></Width>
+	  <Height></Height>
+	  <Padding></Padding>
+	  <Border></Border>
+	  <Margin></Margin>
+	  <Outline></Outline>
+	  <BackgroundColor></BackgroundColor>
+	  <Color></Color>
+	  <Font></Font>
+	  <TextDecoration></TextDecoration>
+	</record>
+
+	<record>
+	  <Element></Element>
+	  <Width></Width>
+	  <Height></Height>
+	  <Padding></Padding>
+	  <Border></Border>
+	  <Margin></Margin>
+	  <Outline></Outline>
+	  <BackgroundColor></BackgroundColor>
+	  <Color></Color>
+	  <Font></Font>
+	  <TextDecoration></TextDecoration>
+	</record>
+
+</CBF>		

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<HFI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<record>
+	  <Element></Element>
+	  <Contents></Contents>
+	  <AttribVal></AttribVal>
+	  <REGEX></REGEX>
+	</record>
+
+	<record>
+	  <Element></Element>
+	  <Contents></Contents>
+	  <AttribVal></AttribVal>
+	  <REGEX></REGEX>
+	</record>
+
+</HFI>
